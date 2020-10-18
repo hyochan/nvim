@@ -30,6 +30,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
   " File Search
   Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
   Plug 'junegunn/fzf.vim'
+  Plug 'airblade/vim-rooter'
 
   Plug 'ianks/vim-tsx'
   Plug 'pangloss/vim-javascript'                                                                                                                                                          
