@@ -1,0 +1,9 @@
+{
+  "coc.preferences.formatOnSaveFiletypes": ["css", "markdown", "ts", "tsx", "js", "jsx"],
+  "prettier.eslintIntegration": true,
+  "explorer.width": 30,
+  "explorer.previewAction.onHover": false,
+  "snippets.ultisnips.usePythonx": false
+}
+
+
