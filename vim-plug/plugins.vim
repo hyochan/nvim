@@ -13,7 +13,9 @@ call plug#begin('~/.config/nvim/autoload/plugged')
   Plug 'jiangmiao/auto-pairs'
 
   " Theme
-  Plug 'joshdick/onedark.vim'
+  Plug 'phanviet/vim-monokai-pro'
+  Plug 'gruvbox-community/gruvbox'
+  Plug 'sainnhe/gruvbox-material'
 
   " Language Client
   Plug 'neoclide/coc.nvim', {'branch': 'release'}
@@ -40,4 +42,6 @@ call plug#begin('~/.config/nvim/autoload/plugged')
   Plug 'styled-components/vim-styled-components', { 'branch': 'main' }                                                                                                                    
   Plug 'jparise/vim-graphql'
   Plug 'pantharshit00/vim-prisma'
+  Plug 'theprimeagen/vim-be-good', {'do': './install.sh'}
+
 call plug#end()
