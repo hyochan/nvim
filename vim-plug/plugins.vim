@@ -44,4 +44,9 @@ call plug#begin('~/.config/nvim/autoload/plugged')
   Plug 'pantharshit00/vim-prisma'
   Plug 'theprimeagen/vim-be-good', {'do': './install.sh'}
 
+  Plug 'dart-lang/dart-vim-plugin'
+  Plug 'natebosch/vim-lsc'
+  Plug 'natebosch/vim-lsc-dart'
+  Plug 'neoclide/coc.nvim', {'branch': 'release'}
+
 call plug#end()
