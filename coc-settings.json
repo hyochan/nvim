@@ -14,5 +14,6 @@
   "eslint.autoFix": true,
   "tsserver.enableJavascript": false,
   "explorer.width": 30,
-  "explorer.previewAction.onHover": false
+  "explorer.previewAction.onHover": false,
+  "explorer.file.showHiddenFiles": true
 }
