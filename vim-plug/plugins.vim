@@ -48,5 +48,16 @@ call plug#begin('~/.config/nvim/autoload/plugged')
   Plug 'natebosch/vim-lsc'
   Plug 'natebosch/vim-lsc-dart'
   Plug 'neoclide/coc.nvim', {'branch': 'release'}
+  Plug 'evanleck/vim-svelte'
+
+  Plug 'pangloss/vim-javascript'
+  Plug 'HerringtonDarkholme/yats.vim'
+  Plug 'prettier/vim-prettier', { 'do': 'npm install' }
+
+  " Prettier Settings
+  let g:prettier#quickfix_enabled = 0
+  let g:prettier#autoformat_require_pragma = 0
+  au BufWritePre *.css,*.svelte,*.pcss,*.html,*.ts,*.js,*.json PrettierAsync
+
 
 call plug#end()
