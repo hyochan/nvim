@@ -54,6 +54,8 @@ call plug#begin('~/.config/nvim/autoload/plugged')
   Plug 'HerringtonDarkholme/yats.vim'
   Plug 'prettier/vim-prettier', { 'do': 'npm install' }
 
+  Plug 'tomlion/vim-solidity'
+
   " Prettier Settings
   let g:prettier#quickfix_enabled = 0
   let g:prettier#autoformat_require_pragma = 0
